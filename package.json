@@ -1,0 +1,15 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "- Student can apply express.json as top level middle-ware\r - Student can access the body from req.body\r - Student can use post, put, delete methods to handle the associated requests\r # Top-Level Middleware\r - Student can describe how app.use is fired before every endpoint declared after it.\r - Student can set up express.json in an app.use() at the top of their server file.\r # Tooling - Postman\r - Student can send requests to their server with Postman.\r - Student can send requests to their server with Postman including a body in the request.\r - Student can send requests to their server with Postman including params in the request.\r # Express Patterns\r - Student can set up a controller to export content with module.exports and require that controller in their server file.\r - Student can write endpoint handler functions in the controller file and then reference them in the endpoint in the server file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
